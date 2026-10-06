@@ -1,0 +1,18 @@
+{
+  "config": {
+    "step": {
+      "confirm": {
+        "title": "ChargePro Solar",
+        "description": "Discovered the {name} controller. Add it to Home Assistant?"
+      },
+      "user": {
+        "data": {
+          "address": "Charger MAC address (from a PVChargePro advertisement, e.g. 1A:2B:3C:4D:5E:6F)"
+        }
+      }
+    },
+    "error": {
+      "already_configured": "Device is already configured"
+    }
+  }
+}
